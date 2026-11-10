@@ -1,16 +1,42 @@
-# React + Vite
+# React Image Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Project Description
+The React Image Gallery is a responsive web application developed using React.js and Tailwind CSS. It displays beautiful images in an attractive card-based grid layout.
 
-Currently, two official plugins are available:
+The project uses reusable components, React props, and the JavaScript map() method to dynamically display multiple images.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Responsive image gallery
+- Reusable ImageCard component
+- Dynamic image rendering using map()
+- Data passing using React props
+- Hover animations
+- Mobile-friendly design
 
-## React Compiler
+## Technologies Used
+- React.js
+- JavaScript
+- Tailwind CSS
+- HTML
+- Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Structure
+- App.jsx – Main application component
+- ImageCard.jsx – Reusable image card component
+- main.jsx – Application entry point
 
-## Expanding the Oxlint configuration
+## How to Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Start the development server using `npm run dev`.
+4. Open the local URL in your browser.
+
+## Learning Outcomes
+- Understanding React components
+- Learning props and component reusability
+- Using map() to render dynamic data
+- Creating responsive layouts using Tailwind CSS
+
+## Author
+Karthika
